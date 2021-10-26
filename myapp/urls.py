@@ -6,7 +6,7 @@ from myapp.views import AdvisorList, AdvisorDetail, UserList, UserDetail, Userlo
 
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    #path('', views.index, name='index'),
     path('advisor/',AdvisorList.as_view()),
     path('advisor/<int:pk>/',AdvisorDetail.as_view()),
     path('user/register/',UserList.as_view()),
