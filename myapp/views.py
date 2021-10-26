@@ -5,8 +5,8 @@ from .models import Advisor, User, Advisorbook
 from rest_framework import generics
 
 # Create your views here.
-def index(request):
-    return HttpResponse('Hello World')
+#def index(request):
+    #return HttpResponse('Hello World')
 
 
 class AdvisorList(generics.ListCreateAPIView):
